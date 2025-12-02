@@ -5,6 +5,6 @@
 	"workspaceFolder": "/workspaces",
 	"postStartCommand": ".devcontainer/clone_repos.sh",
 	"remoteEnv": {
-		"PATH": "${containerEnv:PATH}:${containerWorkspaceFolder}/.devcontainer"
+		"PATH": "${containerEnv:PATH}:${localWorkspaceFolder}/.devcontainer"
 	}
 }
